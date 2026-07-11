@@ -126,3 +126,59 @@ A structured, comprehensive tracking repository documenting my continuous progra
     4. Unpack tuple elements cleanly into isolated standalone variables.
     5. Use the wildcard splat operator (`*`) to group leftover unpacked items into a sub-list.
 
+
+    -
+
+### 🗃️ 6. Dictionaries & Key-Value Maps
+*   **Target Workspace Notebooks:** `dict00.ipynb`, `Dictionary_easy_to_hard.ipynb`
+*   **Solved Questions (20+ Problems):**
+    1. Merge two independent dictionary elements into a single record dataset.
+    2. Sort dictionary records based on values instead of keys (ascending/descending).
+    3. Map two separate lists into a key-value dictionary format.
+    4. Group a list of objects by a shared property using a dictionary.
+    5. Handle nested dictionary maps to extract multi-level data fields safely using `.get()`.
+    6. Invert a dictionary by swapping keys and values dynamically.
+    7. Count frequency occurrences of characters inside a word using a hash map structure.
+    8. Create an automatic fallback dictionary record structure via `.setdefault()`.
+    9. Remove target key properties safely from a dictionary without causing errors.
+    10. Check if a key exists inside a multi-level record using targeted validation parameters.
+    11. Update dictionary records dynamically using the `.update()` method.
+    12. Create a shallow copy of a dictionary and explain reference differences in nested components.
+    13. Remove and return a key-value pair from a dictionary using `.pop()` and `.popitem()`.
+    14. Build a dictionary from scratch using dict comprehensions based on conditional logic filter setups.
+    15. Generate a dictionary with default values using `dict.fromkeys()`.
+    16. Find the key associated with the maximum or minimum value in a dictionary dataset.
+    17. Find the intersecting keys common between two distinct dictionary profiles.
+    18. Combine two dictionaries by adding values for keys that appear in both collections.
+    19. Convert a complex nested JSON-style data tree completely into a series of structured key updates.
+    20. Iterate over keys, values, and key-value tuple pairs utilizing `.keys()`, `.values()`, and `.items()`.
+*   **💡 Key Learnings:** Gained deeper insight into Hash Map lookups. Learned how dictionary objects achieve efficient $O(1)$ computational read/write speeds, enabling scalable storage and fast retrieval.
+
+---
+
+### ⚙️ 7. Functional Programming Scopes
+*   **Target Workspace Notebooks:** `function00.ipynb`
+*   **Solved Questions:** Implemented custom multi-argument routines using variable arguments (`*args`, `**kwargs`), recursive operations for deep factorials, and quick structural data transforms using lambda routines combined with `map()` and `filter()`.
+*   **💡 Key Learnings:** Solidified understanding of the **LEGB scoping paradigm** (Local, Enclosing, Global, and Built-in variable resolution layers).
+
+---
+
+### 🏛️ 8. Object-Oriented Programming (OOP)
+*   **Target Workspace Notebooks:** `OOPS.ipynb`, `oops_.ipynb`
+*   **Solved Questions:** Engineered class objects modeling banking portals, customer balance structures, and vehicle inheritance hierarchies. Applied core concepts like custom properties, constructor initializations, and functional overrides.
+*   **💡 Key Learnings:** Mastered data access isolation using private attributes (`__variable`), clean polymorphic overrides, and customized behaviors via built-in magic/dunder methods (`__init__`, `__str__`, `__repr__`).
+
+---
+
+### 📊 9. Vectorized Data Processing with NumPy
+*   **Target Workspace Notebooks:** `Numpy.ipynb`
+*   **Solved Questions:** Vectorized raw arrays, processed linear systems, completed multi-dimensional matrix cuts, and set up dynamic broad broadcasting scripts across incompatible shapes.
+*   **💡 Key Learnings:** Swapped standard Python loops for continuous, contiguous C-array matrix lookups via NumPy, reducing processing times from $O(n)$ down to high-speed vectorized executions.
+
+---
+
+## 📈 General Engineering Habits Picked Up
+*   **Complexity Management:** Prioritized optimizing code logic, transforming slow nested loops $O(n^2)$ into fast $O(1)$ hash map references.
+*   **Defensive Design:** Integrated early edge-case checks (for conditions like empty arrays or null values) to prevent application failures.
+
+
